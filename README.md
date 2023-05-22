@@ -1,4 +1,4 @@
-## Rust-Web
+## Rust-Api
 ### Included All Toturials(Important Sections)
 
 ## How to Contribute
