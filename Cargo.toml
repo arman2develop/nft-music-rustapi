@@ -1,0 +1,35 @@
+[package]
+name = "rust-web"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+
+members = [
+
+
+    "workspace/shared",
+
+    "workspace/web_edu/web_edu_bin",
+    "workspace/web_edu/web_edu_lib",
+    "workspace/web_edu/web_edu_test",
+  
+]
+
+#members = [
+#
+#
+#    "workspace/shared",
+#
+#    "workspace/web_edu/web_edu_bin",
+#    "workspace/web_edu/web_edu_lib",
+#    "workspace/web_edu/web_edu_test",
+#
+#
+#    "workspace/diesel-2.0.x/sqlite/diesel2_sqlite_step1",    
+#    "workspace/diesel-2.0.x/sqlite/diesel2_sqlite_step2",    
+#    "workspace/diesel-2.0.x/sqlite/diesel2_sqlite_step3",    
+#
+#]
